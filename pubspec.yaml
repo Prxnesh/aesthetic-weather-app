@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  geocoding: ^4.0.0
+  geolocator: ^14.0.2
+  http: ^1.5.0
+  lottie: ^3.3.2
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +21,13 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The existing icons package
+  cupertino_icons: ^1.0.2
+
+  # --- ADD THIS LINE ---
+  http: ^1.2.1
